@@ -1,13 +1,13 @@
 import React from 'react'
 
-const CardHero = ({bg , title , description }) => {
+const CardHero = ({ img, alt, bg , title , description }) => {
   return (
     <>
       <div className="relative h-96">
         <div className={`absolute inset-0 ${bg} opacity-60`}></div>
         <img
-          src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-          alt="Mountain biking hero"
+          src={img}
+          alt={alt}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center text-center px-4">

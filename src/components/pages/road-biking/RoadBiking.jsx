@@ -14,11 +14,11 @@ const RoadBiking = () => {
         <main className="flex-grow">
           <div>
             <CardHero
+              img={"./images/rb-banner.webp"}
+              alt={"Road biking hero"}
               bg={"bg-green-900"}
               title={"Road Biking"}
-              description={
-                "Speed, endurance, and the freedom of the open road"
-              }
+              description={"Speed, endurance, and the freedom of the open road"}
             />
             {/* Main Content */}
             <div className="max-w-7xl mx-auto px-4 py-16">
@@ -33,9 +33,7 @@ const RoadBiking = () => {
 
                 <div className="grid md:grid-cols-3 gap-8">
                   <CardRoutes
-                    img={
-                      "https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=8"
-                    }
+                    img={"./images/airplane.webp"}
                     alt={"Coastal Highway"}
                     place={"Coastal Highway"}
                     miles={"75 miles"}
@@ -43,9 +41,7 @@ const RoadBiking = () => {
                     ft={"1,200 ft"}
                   />
                   <CardRoutes
-                    img={
-                      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    img={"./images/cake.webp"}
                     alt={"Mountain Pass"}
                     place={"Mountain Pass"}
                     miles={"42 miles"}
@@ -53,9 +49,7 @@ const RoadBiking = () => {
                     ft={"5,800 ft"}
                   />
                   <CardRoutes
-                    img={
-                      "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    img={"./images/sunset.webp"}
                     alt={"Countryside Loop"}
                     place={"Countryside Loop"}
                     miles={"30 miles"}
